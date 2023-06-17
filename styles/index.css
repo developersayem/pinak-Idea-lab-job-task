@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: relative;
+  background-color: #fdd11e;
+  color: red;
+}
+.head-line {
+  position: fixed;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  color: #fffffb;
+}
+.emoji-circle {
+  position: fixed;
+  top: 20vh;
+  left: 46vw;
+  background-color: #b19215;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.mouth {
+  position: relative;
+  left: 30%;
+  top: 30%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #7c660f;
+}
+.mouth-circle {
+  position: relative;
+  left: 25%;
+  top: -15%;
+  width: 40px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #b19215;
+}
+.eye-1 {
+  position: relative;
+  top: -35%;
+  left: 40%;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  background-color: #7c660f;
+}
+.eye-2 {
+  position: relative;
+  top: -60%;
+  left: 40%;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+  background-color: #7c660f;
+}
+.bottom-container {
+  position: fixed;
+  bottom: 0;
+  border: 0;
+  /* border-radius: 10px 1000px 10px 10px; */
+  height: 20vh;
+  width: 100vw;
+  background-color: #ff555a;
+}
+.bottom-container-triangle {
+  position: fixed;
+  top: 80vh;
+  left: 40vw;
+  width: 0rem;
+  height: 0rem;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+
+  border-top: 80px solid #fdd11e;
+}
